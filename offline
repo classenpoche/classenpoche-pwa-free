@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hors ligne – Classenpoche</title>
+<meta name="theme-color" content="#1e2e42">
+<style>
+  html,body{height:100%;margin:0;}
+  body{
+    display:flex;align-items:center;justify-content:center;flex-direction:column;
+    font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    background:#f5eede;color:#152233;text-align:center;padding:2rem;
+  }
+  .glyph{
+    width:56px;height:56px;border-radius:14px;background:#1e2e42;color:#f5eede;
+    display:flex;align-items:center;justify-content:center;margin-bottom:1.1rem;font-size:1.6rem;
+  }
+  h1{font-size:1.15rem;margin:0 0 .5rem;}
+  p{font-size:.92rem;color:#4a5568;max-width:320px;line-height:1.5;margin:0 0 1.3rem;}
+  button{
+    appearance:none;border:0;border-radius:10px;background:#c98f3b;color:#152233;
+    font-weight:600;padding:.7rem 1.3rem;font-size:.92rem;cursor:pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="glyph">📡</div>
+  <h1>Pas de connexion</h1>
+  <p>Impossible de joindre Classenpoche pour le moment. Reconnecte-toi à internet puis réessaie.</p>
+  <button onclick="location.reload()">Réessayer</button>
+</body>
+</html>
